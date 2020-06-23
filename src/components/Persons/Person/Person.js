@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from 'react';
-import classes from './Person.module.css'
+// import classes from './Person.module.css'
 
 class Person extends Component {
 
