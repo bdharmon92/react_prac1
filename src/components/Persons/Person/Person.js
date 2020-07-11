@@ -11,7 +11,6 @@ class Person extends Component {
     }
 
     componentDidMount() {
-        // this.inputElement.focus();
         this.inputElementRef.current.focus();
     }
 
@@ -27,7 +26,6 @@ class Person extends Component {
                     onChange={this.props.changed}
                     value={this.props.name}
                     ref={this.inputElementRef}
-                    // ref={(inputEl) => { this.inputElement = inputEl }}
                 />
             </Auxiliary>
         );
